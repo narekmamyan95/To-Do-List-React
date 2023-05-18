@@ -1,0 +1,189 @@
+.App {
+  width: 950px;
+  margin: 0 auto;
+}
+
+.formBody {
+  margin: 120px auto;
+}
+
+.formBody p {
+  font-size: 13px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  color: rgb(54, 53, 53);
+  letter-spacing: 1px;
+}
+
+.formBody input[type="text"] {
+  width: 800px;
+  height: 40px;
+  border-radius: 3px;
+}
+
+.formBody input[type="text"]::placeholder {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.formBody input[type="button"] {
+  height: 45px;
+  width: 100px;
+  background-color: rgb(43, 140, 185);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.formBody button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  position: absolute;
+  left: 73%;
+  top: 180px;
+  font-weight: bold;
+}
+
+.nodataContainer {
+  width: 900px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.nodataContainer p {
+  color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.nodataContainer span {
+  font-size: 22px;
+  color: rgb(53, 52, 52);
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.todoBody {
+  position: relative;
+  margin: 0 auto;
+  height: 40px;
+  border-bottom: 1px solid rgb(196, 193, 193);
+  padding-bottom: 5px;
+}
+
+.todoBody span {
+  padding-left: 20px;
+  color: rgb(61, 60, 60);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.todoBody input {
+  width: 15px;
+  height: 15px;
+  outline: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.todoBody button {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.popupContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background-color: rgb(0, 0, 0, .3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popupBody {
+  width: 300px;
+  height: 170px;
+  background-color: white;
+  text-align: center;
+  color: rgb(43, 140, 185);
+  font-weight: bold;
+  margin: 0px auto;
+}
+
+.popupBody p {
+  margin-top: 40px;
+  background-color: white;
+  border: none;
+}
+
+.popupBody button {
+  margin-top: 20px;
+  font-weight: bold;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: white;
+  padding: 15px;
+}
+
+.listComplited {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  right: 420px;
+  top: 100px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.listComplited p {
+  position: absolute;
+  bottom: 18px;
+  left: 33px;
+}
+
+.listComplited input[type="checkbox"] {
+  cursor: pointer;
+  width: 17px;
+  height: 17px;
+}
+
+.validationText p {
+  color: red;
+  font-size: 10px;
+}
+
+.errorMessageContainer {
+  color: red;
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  left: 40%;
+  top: 170px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.checkedTextColor {
+  color: #d7cccc!important;
+}
